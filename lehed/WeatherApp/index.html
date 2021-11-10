@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="#"> <!-- For the icon thingy error, don't know what id does, but removes it :D-->
+    <link rel="stylesheet" type=text/css href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILAMAR!</title>
+</head>
+<body>   
+
+    <input type="text" placeholder="City" id="inputId">
+    <button id = "btn" onclick="getCityValue()"> Gimme Weather </button>
+
+    <div class="location">
+        <h1 id = "cityId">City</h1>
+        <img src="http://openweathermap.org/img/wn/01d@2x.png" alt="icon of current weather in the city" id="icon">
+    </div>
+    <!-- END OF LOCATION -->
+    <div class="temeprature">
+        <div class="degree-section">
+            <h2 class=temperature-degree>??</h2>
+            <span>C</span>
+        </div>
+        <div class="temeprature-description">Very Important Description Will Arive Here.</div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
