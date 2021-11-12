@@ -8,6 +8,16 @@
 body{
     background-color: #333333;
 }
+
+.main{
+    text-align: center;
+}
+
+.pealkiri{
+    padding-top:20vh;
+    font-size: 5rem;
+    color: yellow;
+}
 /* Nav bar stuff*/
 
 header{
