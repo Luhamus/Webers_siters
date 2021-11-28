@@ -1,7 +1,10 @@
+//komentaarid - eesti keelsed - very nice
+//võtan html'ist
 const openModalButtons = document.querySelectorAll("[data-modal-target]")
 const closeModalButtons = document.querySelectorAll("[data-close-button]")
 const overlay = document.getElementById('overlay')
 
+//lisan kuulajad
 overlay.addEventListener("click", () => {
     const modals = document.querySelectorAll(".modal.active") 
     modals.forEach(modal => {
@@ -28,6 +31,7 @@ closeModalButtons.forEach(button => {
 })
 
 
+//Funktisoonid
 function openModal(modal){
     console.log("Clickd!")
     if (modal == null) return
