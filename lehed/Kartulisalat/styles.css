@@ -1,0 +1,86 @@
+* {
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #0a0e1b;
+}
+
+.koju {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 3%;
+    padding-top:2%;
+    text-decoration: none;
+    color: #0088a9;
+    font-size: 1.5rem;
+}
+
+.koju:hover {
+    color: #0088ff;
+}
+
+.tiitel {
+	margin-left: 40%;
+	margin-top: 5%;
+	position: fixed;
+}
+
+.main {
+	padding-left: 3%;
+	padding-top: 5%;
+}
+
+.pilt {
+	position: fixed;
+	margin-left: 75%;
+	margin-top: 5%;
+	text-align: center;
+}
+
+ul {
+	padding-top: 1%;
+	color: white;
+	font-size: 20px;
+}
+
+.valmistamine {
+	position: absolute;
+	margin-top: -23%;
+	margin-left: 30%;
+	width: 850px;
+}
+
+h2 {
+	color:white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 35px;
+	color: white;
+	font-weight: bold;
+}
+
+h4 {
+	font-size: 25px;
+	color: white;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: 16px;
+	color: white;
+}
+
+h6 {
+	color: white;
+	margin-top: -2%;
+	margin-left: 79%;
+	font-size: 14px;
+}
