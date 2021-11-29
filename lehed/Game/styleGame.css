@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #333333;
+}
+
+.main{
+    text-align: center;
+}
+
+.koju{
+    font-family: 'Permanent Marker', cursive;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 3%;
+    padding-top:2%;
+    text-decoration: none;
+    color: #0088a9;
+    font-size: 1.5rem;
+    transition: all 0.4 ease 0;
+}
+
+.koju:hover{
+    color: #0088ff;
+}
+
+::scrollbar {
+    display: none;
+}
+  
+
+main {
+  overflow-x: hidden;
+  display: flex;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  min-width: 50vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.äär {
+  min-width: 25vw;
+}
+
+.vahe {
+  min-width: 10vw;
+}
+
+#pic1 {
+  background-image: url("tower.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#pic2 {
+  background-image: url("image.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#pic3 {
+  background-image: url("magic.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*Button stuff*/
+
+.btn {
+  font-family: 'Mochiy Pop One';
+  border: none;
+  background-color: teal;
+  padding: 10px 28px;
+  font-size: 4ch;
+  cursor: pointer;
+  display: inline-block;
+  color: black;
+  border-radius: 10px;
+  text-decoration: none;
+}
+  
+.btn:hover {background: rgb(1, 155, 155);}
+
+#myVideo {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+video{
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
