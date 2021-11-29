@@ -1,8 +1,8 @@
 **WEBERS_SITERS**
 
-Meie veebileht on loodud olema multifunktsionaalne tööriist, mille võiks oma veebisirvijasse bookmarkida, et teda siis vajadusel või soovi korral kasutada.
+Meie [veebileht](https://kodu.ut.ee/~luhamus/) on loodud olema multifunktsionaalne tööriist, mille võiks oma veebisirvijasse bookmarkida, et teda siis vajadusel või soovi korral kasutada.
 Veebilehe eesmärk on pakuda üheaegselt nii igapäevast infot, kasulikke tarkuseteri kui ka meelelahutust. Kõike ühest ja samast kohast. 
-[a link](https://kodu.ut.ee/~luhamus/)
+
 
 **Tiimiliikmed:**<br>
  -Karm Koduvere<br>
