@@ -3,12 +3,12 @@
 Meie veebileht on loodud olema multifunktsionaalne tööriist, mille võiks oma veebisirvijasse bookmarkida, et teda siis vajadusel või soovi korral kasutada.
 Veebilehe eesmärk on pakuda üheaegselt nii igapäevast infot, kasulikke tarkuseteri kui ka meelelahutust. Kõike ühest ja samast kohast. 
 
-**Tiimiliikmed:**
- -Karm
- -Martin
- -Rasmus
+**Tiimiliikmed:**<br>
+ -Karm<br>
+ -Martin<br>
+ -Rasmus<br>
  
- **Tööjaotus oli järgmine:**
-  Karm - Mängude ja numbriteemaliste faktide vahelehed
-  Martin - Kartulisalati ja "fun facts" vahelehed
-  Rasmus - Landing page ja ilmateate vaheleht
+ **Tööjaotus oli järgmine:**<br>
+  Karm - Mängude ja numbriteemaliste faktide vahelehed<br>
+  Martin - Kartulisalati ja "fun facts" vahelehed<br>
+  Rasmus - Landing page ja ilmateate vaheleht<br>
