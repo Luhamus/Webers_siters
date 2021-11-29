@@ -1,64 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="style.css">
-    <title>Welcomen!</title>
-</head>
-<body>
-<div class="main">
-  <section class="videoSection">
-    <video autoplay loop muted >
-        <source src="Videod/vid.mp4" type="video/mp4">
-    </video>
-  </section>    
-
-    <header >
-        <a href="https://github.com/Luhamus/Webers_siters" target=_blank>
-        <img class="ghlogo" src="https://www.transparentpng.com/thumb/logos/github-logo-png-rtT9Sy.png" alt="github logo png @transparentpng.com">
-        </a>
-
-        <nav>
-            <ul class="navLinks">
-                <li><a href="lehed/WeatherApp/index.html">Ilmar</a></li>
-                <li><a href="lehed/Faktikogum/index.html">Faktid</a></li>
-                <li><a href="lehed/Kartulisalat/index.html">Kartulisalat</a></li>
-                <li><a href="#">Leht3</a></li>
-                <li><a href="#">Leht4</a></li>
-            </ul>
-        </nav>
-        <a href="#"><button data-modal-target="#modal">Click Me</button></a>
-    </header>
-
-    <div class="modal" id="modal">
-        <div class="modal-header">
-            <div class="mtitle">Well, hello there!</div>
-            <button data-close-button class="close-button">&times;</button>
-        </div>
-        <div class="modal-body">
-            Sul on hullu moodi vedanud! Oled sattunud ühele Eesti vingeimale veebilehele. 
-            Meie kvaliteetlehel saad sa liskas muule:<br>
-             - Vaadata ilmateadet ükskõik, mis linnas<br>
-             - Saada huvitavaid teadmisi meie faktikogumilt<br>
-             - Teha kartulisalatit parima retsepti järgi<br>
-             - Lehe4 teema värk placeholder<br>
-            Nii, et mis seal ikka, hakka aga uudistama.
-            <br>
-            <br>
-            Sinu profesionaalne veebiarendus tiim
-            <br>
-            Rasmus, Karm ja Martin
-        </div>
-    </div>
-    <div id="overlay"></div>
-
-<!-- main lõpp -->    
-    
-</div>
-
-    <script src="script.js"></script>
-
-</body>
+  <head>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap" rel="stylesheet"> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<script src="lumi.js"></script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Faktikogum</title>
+  </head>
+  <body>
+	<a href="../../index.html" class="koju"><h3>&#8592;Koju</h3></a>
+	<h2>Äkki need faktid polegi nii kasulikud :O</h2>
+	<img src="https://www.upload.ee/image/13673762/loke.gif" class="gif" width="300" alt="animeeritud lõke"/>
+	
+	<div class='faktid'>
+		<h1>Kasulikud faktid</h1>
+		<br><br>
+		<p id="hold-fact">Vajuta nuppu, et fakti näha! (inglise keeles)</p>
+	</div>
+	<div class='button-ala'>
+		<button class="button" id="show-fact">Näita uut fakti</button>
+		<script src="facts.js"></script>
+	</div>
+	
+  </body>
 </html>
