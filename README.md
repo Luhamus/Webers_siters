@@ -4,9 +4,9 @@ Meie veebileht on loodud olema multifunktsionaalne tööriist, mille võiks oma 
 Veebilehe eesmärk on pakuda üheaegselt nii igapäevast infot, kasulikke tarkuseteri kui ka meelelahutust. Kõike ühest ja samast kohast. 
 
 **Tiimiliikmed:**<br>
- -Karm<br>
- -Martin<br>
- -Rasmus<br>
+ -Karm Koduvere<br>
+ -Martin Vahe<br>
+ -Rasmus Luha<br>
  
  **Tööjaotus oli järgmine:**<br>
   Karm - Mängude ja numbriteemaliste faktide vahelehed<br>
